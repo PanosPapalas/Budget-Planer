@@ -1,0 +1,270 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 24, 2024, 3:27:42 PM
+    Author     : jack1
+*/
+
+.root{
+    -fx-padding: 20;
+}
+.root-hbox{
+    -fx-background-color: white;
+    -fx-background-radius: 39;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+    -fx-font-family: 'Helvetica', 'Arial', sans-serif;
+}
+.min-button{
+    -fx-padding: 4 8 4 8;
+    -fx-font-size: 20;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+.min-button:hover{
+    -fx-background-color: #ADADAD;
+}
+.exit-button{
+    -fx-padding: 3 5 3 5;
+    -fx-alignment: center;
+    -fx-font-size: 20;
+    -fx-border-width: 2px;
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-focus-color: #D7263D;
+    -fx-faint-focus-color: #ff000022;
+}
+
+.exit-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #DD4055;
+    -fx-border-color: #ED97A2;
+}
+.exit-button:focused{
+    -fx-text-fill: white;
+    -fx-background-color: #D7263D;
+    -fx-border-color: #EA8693;
+}
+.main-menu{    
+    -fx-background-color:transparent;
+    -fx-border-color: #F8F8F8;
+    -fx-border-width: 0 2px 0 0;
+}
+middle-menu-title{
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+}
+.main-menu-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #C7C7C7;
+    -fx-font-size:14;
+    -fx-font-weight: bold;
+    -fx-font-family: lato;
+}
+.table-view .column-header .label{
+    -fx-alignment:CENTER_LEFT;
+    -fx-padding: 0 0 0 6;
+}
+.main-label{
+    -fx-font-family: quicksand;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.main-menu-button:hover{
+    -fx-background-color: #F0F7FF;
+    -fx-text-fill: #1A84CB;
+}
+
+.main-menu-button:focused{
+    -fx-background-color: #E6F1FF;
+    -fx-text-fill: #197BBD;
+}
+
+.middle-menu{
+    -fx-background-color: transparent;
+}
+
+.chart-menu{
+    -fx-background-color: white;
+    -fx-background-radius: 28;
+    -fx-effect: dropshadow(gaussian, rgba(51, 51, 51, 0.6), 24, 0.5, 0.0, 8.0);
+}
+
+.chart-menu .label{
+    -fx-padding: 7 0 13 16;
+    -fx-font-size: 20;
+}
+
+.chart-menu .chart-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #C7C7C7;
+    -fx-font-size: 40;
+    -fx-padding: 0 10 0 10;
+    -fx-focus-traversable: false;
+}
+
+.chart-menu .chart-button:hover{
+    -fx-text-fill: #197BBD;
+}
+
+.chart-menu .chart-button-tran{
+    -fx-focus-traversable: false;
+}
+.chart-menu .breakDown{
+    -fx-alignment: center-right;
+    -fx-border-color: #D9D9D9;
+    -fx-border-width: 0 0 0 2px;
+    -fx-padding: 0 14 0 24;
+}
+
+.breakDown .curNum{
+    -fx-font-size: 25;
+    -fx-text-fill: #197BBD;
+    -fx-padding: 0 0 0 0;
+    -fx-alignment: center-right;
+}
+
+.breakDown .titleText{
+    -fx-text-fill: #AEAEAE;
+    -fx-font-size: 14;
+    -fx-padding: 0 0 14 0;
+    -fx-alignment: top-right;
+}
+
+.breakDown .incomeNum{
+    -fx-font-size: 18;
+    -fx-text-fill: #439A86;
+    -fx-alignment: center-right;
+    -fx-padding: 0 0 0 0;
+}
+
+.breakDown .spedingNum{
+    -fx-font-size: 18;
+    -fx-text-fill: #BB4430;
+    -fx-alignment: center-right;
+   -fx-padding: 0 0 0 0;
+}
+.scroll-pane{
+    -fx-max-width :620;
+    -fx-background-color :transparent;
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-traversable: false;
+}
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+.table-view{
+    -fx-focus-traversable: false;
+}
+.new-button-label{
+    -fx-font-size:14;
+    -fx-font-weight: bold;
+    -fx-font-family: lato;
+}
+.new-button{
+    -fx-padding: 5 10 4 9;
+    -fx-background-radius: 4;
+    -fx-background-color: transparent;
+    -fx-text-fill: #C7C7C7;
+}
+
+.new-button-focus{
+    -fx-padding: 5 10 4 9;
+    -fx-background-radius: 4;
+    -fx-background-color: #E6F1FF;
+    -fx-text-fill: #197BBD;
+}
+
+.new-button-hover{
+    -fx-padding: 5 10 4 9;
+    -fx-background-radius: 4;
+    -fx-background-color: #F0F7FF;
+    -fx-text-fill: #1A84CB;
+}
+
+
+.goal-button{
+  -fx-background-color: transparent, #FFC145;
+  -fx-background-radius: 16.4, 15;
+  -fx-background-insets: -1.4, 0;
+  -fx-border-radius: 15;
+  -fx-border-width: 2;
+  -fx-min-height:30;
+  -fx-min-width: 30;
+  -fx-border-color: #404040;
+  -fx-padding: 0;
+  -fx-font-size: 0;
+}
+
+.goal-button:hover {
+  -fx-effect: innershadow(gaussian, dimgray, 15, 0, 0, 0);
+}
+
+.goal-button{
+  -fx-stroke: #404040;
+  -fx-fill: #404040;
+  -fx-font-size: 20;
+  -fx-translate-y: -1;
+}
+
+/* the real chart css*/
+
+.main-week-chart .series1.chart-bar{ -fx-background-radius: 10 10 0 0; }
+.main-week-chart .series0.chart-bar{ -fx-background-radius: 0 0 10 10; }
+.main-week-chart .default-color0.chart-bar { -fx-bar-fill: #BB4430; }
+.main-week-chart .default-color1.chart-bar { -fx-bar-fill: #439A86; }
+.main-week-chart .chart-plot-background{ -fx-background-color: transparent;}
+.main-week-chart .chart-vertical-grid-lines { -fx-stroke: transparent; }
+.main-week-chart .chart-horizontal-grid-lines { -fx-stroke: transparent; }
+.main-week-chart .axis { -fx-tick-label-fill: transparent;}
+/* the background chart css*/
+.background-chart .series0.chart-bar{ -fx-background-radius: 0 0 10 10; }
+.background-chart .series1.chart-bar{ -fx-background-radius: 0; }
+.background-chart .series2.chart-bar{ -fx-background-radius: 10 10 0 0; }
+.background-chart .default-color0.chart-bar { -fx-bar-fill: #BB4430; }
+.background-chart .default-color1.chart-bar { -fx-bar-fill: #439A86; }
+.background-chart .default-color2.chart-bar { -fx-bar-fill: gray; }
+.background-chart .chart-plot-background { -fx-background-color: #e2ecfe; }
+.background-chart .chart-vertical-grid-lines { -fx-stroke: #3278fa; }
+.background-chart .chart-horizontal-grid-lines { -fx-stroke: #3278fa; }
+.background-chart .chart-alternative-row-fill { -fx-fill: #99bcfd; }
+
+.goal-background{
+    -fx-background-color: white; 
+    -fx-padding:13 50 24 24; 
+    -fx-max-height: 187px;
+    -fx-max-width: 164px;
+    -fx-background-radius: 28; 
+    -fx-effect: dropshadow(gaussian, rgba(51, 51, 51, 0.6), 24, 0.5, 0.0, 8.0);
+}
+
+.selection-shower{
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+
+.selection-shower .spending-selected{
+    -fx-text-fill: #BB4430;
+    -fx-padding: 0 10 5 10;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 2 0;
+}
+
+.selection-shower .income-selected{
+    -fx-text-fill: #439A86;
+    
+}
