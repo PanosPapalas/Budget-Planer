@@ -87,11 +87,11 @@ public class db {
     }
     
     public static void updateTransactionTable(String title, double amount, String type, String date, boolean tranType, String iconName, int id){
-        execSTMT("UPADATE TRANSACTIONS SET TITLE ="+title+",AMOUNT ="+amount+",TYPE ="+type+",TIME ="+date+",ISSPENDNIG ="+tranType+",ICONNAME ="+iconName+"WHERE ID ="+id+";");
+        execSTMT("UPDATE TRANSACTIONS SET TITLE ="+title+",AMOUNT ="+amount+",TYPE ="+type+",TIME ="+date+",ISSPENDNIG ="+tranType+",ICONNAME ="+iconName+"WHERE ID ="+id+";");
     }
     
     public static void updateGoalTable(String titleValue,double cAmount,double tAmount, String icon, int id){
-        execSTMT("UPADATE GOAlS SET TITLE ="+titleValue+",CAMOUNT ="+cAmount+",TAMOUNT ="+tAmount+",ICONNAME ="+icon+"WHERE ID ="+id+";");
+        execSTMT("UPDATE GOAlS SET TITLE ="+titleValue+",CAMOUNT ="+cAmount+",TAMOUNT ="+tAmount+",ICONNAME ="+icon+"WHERE ID ="+id+";");
     }
     
     public static void insertToTransactions(String title, double amount, String type, String date, boolean tranType, String iconName){
