@@ -28,5 +28,6 @@ While i try my hand with the automatic downloading of the icons used in this pro
 # TODO 
 - [ ] Fix a bug with the dates where the 31st of december will not be counted when the current date is the same year.
 - [ ] Create a way to make sure there are icons on app start up.
+- [ ] Find a better way to clear data from the charts.
 - [ ] Insert a more robust selection of images to choose from.
 - [ ] Finish the Settings Page.
