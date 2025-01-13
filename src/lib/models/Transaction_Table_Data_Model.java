@@ -32,7 +32,7 @@ public class Transaction_Table_Data_Model {
     private LocalDate date;
     private boolean isNegative;
     private String iconName = " ";
-    private final String url = "C:\\Users\\"+System.getProperty("user.name")+"\\Document\\Budget-Planer\\resources\\transactionIcons"; 
+    private final String url = "C:\\Users\\"+System.getProperty("user.name")+"\\Documents\\Budget-Planer\\resources\\transactionIcons\\"; 
     private int id;
     
     public Transaction_Table_Data_Model(Transaction_Data_Model model){
